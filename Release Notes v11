@@ -1,0 +1,148 @@
+📜 HogueResMaster — Full Change Log (v1 → v11)
+
+v11 (current)
+	•	🚀 Auto-start intake (no manual “run” command); all-at-once or step-by-step uploads.
+	•	🎛️ Style Pack with auto-suggest + multi-select override: Classic / Hybrid / Technical Individual Contributor / Executive / Healthcare / Federal / Academic Curriculum Vitae.
+	•	💌 Evidence-only cover letters (warm/professional/direct): cites real wins; no clichés; no invented claims. Accomplishment Nudge asks for metrics if missing.
+	•	🏛️ Federal (USAJOBS) mode: “11:59 p.m. Eastern Time” reminder, cut-off detection, Specialized Experience alignment, Month/Year + Hours/Week checks, USAJOBS checklist + badge.
+	•	🔒 ATS-safe composition (Applicant Tracking System): single column; no tables/columns/text boxes; clean page breaks; consistent bullets; acronyms expanded once.
+	•	🛡️ Risk & salary awareness: flags up-front fees / Telegram-only / fake checks / crypto tasks; JOFDAV awareness; salary-transparency nudge when relevant.
+	•	🖼️ OCR fallback for screenshots and image-only PDFs (best effort; friendly nudge if engine missing).
+	•	🔗 Link health check for Interview Guide and Run Report (never modifies the resume).
+	•	🅱️ A/B bullet variant + de-dup + tighten (≤6 bullets per role; 1–2 lines each).
+	•	🧷 Style memory (remembers last selections).
+	•	🔁 Idempotent runs (skips rebuild if inputs/options unchanged).
+	•	📦 Mobile-first ZIP delivery: /Resume, /Cover, /Guides, /Reports, /Federal + README_first.rtf.
+	•	🧾 Output engines: DOCX canonical; PDF when available; RTF fallback (no plain .txt).
+	•	🔐 Safe-Share ATS copy: hides phone number and street address by default (toggleable).
+	•	✅ Known issues: none (fallbacks are intentional design, not defects).
+
+v10
+	•	🏛️ First-class Federal support introduced (USAJOBS checklist, Specialized Experience prompts, closing-time reminder).
+	•	🎨 Emoji UI summary cards and consistent file naming finalized.
+	•	🔒 Core resume composer re-written for stricter ATS safety (single column, page-break discipline, bullet consistency).
+
+v9.2.2
+	•	📝 RTF fallback for resume/cover when Word libraries aren’t present (preserves bold/bullets across Word, Apple Pages, Google Docs).
+	•	📘 Interview Guide exports as real PDF when the engine is available (older HTML fallback removed later).
+	•	🔔 Update checks made opt-in.
+
+v9.2.1
+	•	📄 Better page-break handling around multi-line bullets.
+	•	📊 Cleaner emoji score card and risk banner.
+	•	🏷️ File naming improved to include style segment consistently.
+
+v9.1
+	•	📦 Initial ZIP bundling of outputs for easier mobile downloads.
+	•	🧮 Summary metrics card (Match, Scan, Hire, Grade).
+	•	✏️ Redline summary (before → after: keywords and numbers).
+
+v9.0
+	•	🖼️ Major UI refresh to emoji-first, friendly style; simplified instructions.
+	•	🔐 Safer defaults for contact details in sharable/ATS copies.
+
+v8.8
+	•	🧹 Tighter spacing and bullet alignment; improved section headers.
+	•	📄 Smarter one-page vs two-page selection based on content density.
+
+v8.5
+	•	🎚️ Resume level selector (promotion/growth and auto-mode).
+	•	✅ Optional checkboxes UI for style/length/options.
+
+v8.3
+	•	🎯 Keyword alignment optimization; removed noisy terms.
+	•	✏️ Cleaner redline output and interview prompts.
+
+v8.1
+	•	📄 Better page-break planning to avoid cliff-hanger bullets.
+	•	🪟 Smoother headings; consistent underline under contact block.
+
+v8.0
+	•	🩺 Healthcare enhancements (licenses, compliance, EMR/EHR terms, patient-safe phrasing).
+	•	📘 First Interview Study Guide and guided STAR prompts.
+
+v7.6
+	•	🤖 No-flags mode: auto-detect resume + job post; runs with minimal prompting.
+	•	🧭 Company/title inference from job text or URL.
+
+v7.5
+	•	🧾 Auto-extract candidate name from top-of-resume lines.
+
+v7.4
+	•	🖨️ Print options added; consolidated beta; mission statement refined.
+
+v7.0–v7.3
+	•	🧠 Improved ATS keyword scoring and basic tailoring.
+	•	🧩 Early formatting passes toward single-column, ATS-safe structure.
+
+v6
+	•	🧰 Stabilized CLI; more robust error handling for missing files and odd PDFs.
+	•	🔎 Cleaner tokenization and keyword extraction.
+
+v5
+	•	🧪 Introduced composite scoring (Match/Scan/Hire/Grade) and basic cover-letter generator.
+	•	📄 First DOCX writer with plain layout.
+
+v4
+	•	📦 Multi-file intake (resume + job post); simple heuristics for role detection.
+	•	✂️ Early de-dup of repeated lines and whitespace cleanup.
+
+v3
+	•	🔤 Basic text normalization; improved bullet detection.
+	•	🧪 Early metrics detection (% and $) for stronger bullets.
+
+v2
+	•	📥 Added PDF and DOCX readers; fallback to text; robust encoding.
+	•	🧱 First pass at single-column export (no tables/columns).
+
+v1
+	•	🌱 Initial prototype: parse resume and job text; minimal keyword matching; plain text export.
+
+⸻
+
+🗒️ Notes (Principles • Compatibility • Privacy)
+
+Principles
+	•	ATS-first, human-friendly: single column, clean spacing, consistent bullets, clear page breaks.
+	•	Evidence-only: never fabricate achievements; if metrics are missing, we ask for them (Accomplishment Nudge).
+	•	Clarity: expand acronyms on first mention (e.g., Applicant Tracking System (ATS)), then keep them short.
+
+Compatibility
+	•	Best with DOCX and PDF; RTF fallback ensures universal openability without losing structure.
+	•	OCR improves screenshot parsing when available; otherwise users get a polite nudge to upload a text-based file.
+
+Privacy
+	•	ATS copy hides phone number and street address by default (you can switch this off).
+	•	No analytics required to generate documents.
+
+Accessibility
+	•	Clean, single-column structure improves screen-reader parsing; body text in readable sizes by default.
+
+⸻
+
+🥊 Why HogueResMaster is better than the competition
+	•	ATS-safe by design (not “pretty” templates that break parsing).
+	•	Authentic cover letters grounded in your actual results and the job’s needs; no clichés, no invented claims.
+	•	Federal (USAJOBS) awareness done properly: Month/Year + Hours/Week prompts, Specialized Experience mapping, closing-time reminders, badge + checklist.
+	•	Mobile-first delivery: organized ZIP folders and a mini README for iPhone/Android.
+	•	Safety built-in: scam flags and salary-transparency nudges.
+	•	Productivity: optional A/B bullet variant and idempotent runs save time without sacrificing quality.
+
+⸻
+
+🛣️ Future Updates (Roadmap)
+
+Near-term (v11.x)
+	•	Embedded fonts for PDFs (identical rendering across devices when the engine is present).
+	•	Accessibility quick-toggle (larger text, higher-contrast bullets).
+	•	Localization-ready strings for Spanish and other languages.
+	•	Session restore (resume where you left off).
+	•	One-Tap Re-Run (reuse resume + style across a short list of postings in one session).
+	•	Style Pack additions (Modern Legal, Government Contractor), still ATS-safe.
+
+Mid-term (v12)
+	•	Optional job-API connectors (user-authorized) to fetch postings directly.
+	•	“I Trust” watermark option (off by default) for those who want a discreet authenticity marker.
+	•	Metrics helper to convert responsibilities into measurable outcomes.
+	•	Local run analytics (before→after charts; no external servers).
+	•	Interactive Review: accept/rewrite bullets inline before export.
