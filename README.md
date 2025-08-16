@@ -75,3 +75,14 @@ See [Releases](https://github.com/hoguej77/hogueresmaster/releases) for full cha
 All rights reserved © 2025 Jonathan Hogue.  
 Provided for personal testing only.  
 Redistribution or resale prohibited.  
+
+---
+
+## 💖 Support the Project
+
+If you find **HogueResMaster** helpful, consider supporting my work!  
+Your support helps me keep improving features and making this tool even better.
+
+[![Sponsor me](https://img.shields.io/badge/Sponsor-%F0%9F%92%96-blueviolet?style=for-the-badge)](https://github.com/sponsors/hoguej77)
+
+You can also click the **“Sponsor” button** at the top of this repository.  
