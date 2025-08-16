@@ -1,54 +1,77 @@
-## 🚀 How to Use HogueResMaster
+# HogueResMaster  
 
-Follow these steps to get started:
-
----
-
-### 1️⃣ Install
-- Download the **ChatGPT app** (free or paid) OR use **Gemini** or **Microsoft Copilot**.
-- Works on **iPhone, iPad, Mac, and PC**.
+AI-powered resume and career accelerator.  
 
 ---
 
-### 2️⃣ Download HogueResMaster
-- Go to the **Releases** section on this GitHub page.
-- Under **Assets**, click and download the latest file:
-  - `HogueResMaster_v9_1.py`
-- Save it somewhere you can easily find (Desktop or Downloads).
+## 🚀 How to Use  
+
+### 1. Install  
+- Download the ChatGPT app (free or paid).  
+- 💡 Works on iPhone, iPad, Mac, PC. (Also runs on Google Gemini & Microsoft Copilot).  
+
+### 2. Upload (all in one chat)  
+1️⃣ Your resume (Word, PDF, or screenshot).  
+2️⃣ The job posting (file, screenshot, or link).  
+3️⃣ The file: `HogueResMaster` (download below).  
+
+### 3. Run  
+Type:  
+👉 `Run HogueResMaster`  
+(No commands needed — it auto-detects everything).  
+
+### 4. Download Output  
+You’ll instantly get:  
+- 📝 Polished Resume  
+- 📄 Cover Letter  
+- 📊 Interview Guide  
+- 🔍 ATS-safe Text version  
+- ✏️ Redline (before vs after)  
+- ✅ Matches JSON (safe job listing scan)  
 
 ---
 
-### 3️⃣ Upload Your Files (all in one chat)
-When running in ChatGPT (or other supported AI app):
-1. Upload **your resume** (Word, PDF, or screenshot).
-2. Upload the **job posting** (file, screenshot, or link).
-3. Upload the file **HogueResMaster.py** (the one you just downloaded).
+## ✨ Features  
+
+- 📑 Transforms any resume — student, veteran, or pro — into a recruiter-ready, ATS-safe document.  
+- ⚡ Cuts application time in half by scanning job postings and tailoring your resume automatically.  
+- 🎯 Boosts interview confidence with study guides, STAR prompts, and salary insights.  
+- 🛡️ Protects your time with scam detection and safe-apply links.  
+- 🏥 New in beta: healthcare upgrade, CV mode for academic/clinical roles, and print-ready exports.  
 
 ---
 
-### 4️⃣ Run the Code
-- In ChatGPT, type:  
-  👉 `Run HogueResMaster`  
-- No extra commands, no flags. The tool **auto-detects your files**.
+## 🔑 Why It’s Different  
+
+Most resumes get lost in Applicant Tracking Systems.  
+HogueResMaster rebuilds resumes from scratch so yours gets seen.  
+
+Beta testers get **exclusive premium features** from the start.  
+✅ No gimmicks  
+✅ No subscription  
+✅ Just works — before App Store release.  
 
 ---
 
-### 5️⃣ Get Your Results
-HogueResMaster will instantly generate:
-- 📝 **Polished Resume**  
-- 📄 **Cover Letter**  
-- 📊 **Interview Study Guide**  
-- 🔍 **ATS-safe Text Resume**  
-- ✏️ **Redline (before vs after comparison)**  
-- ✅ **Matches JSON (safe job listing scan)**  
+## 📥 Download  
+
+👉 [Latest Release Here](https://github.com/hoguej77/hogueresmaster/releases/tag/v9.1-beta)  
+
+Under **Assets**, click:  
+- `HogueResMaster_v9_1.py`  
+
+Then upload that file into your ChatGPT (or Gemini / Copilot) chat.  
 
 ---
 
-### 🔑 Notes for Testers
-- This is a **Beta release** — please report bugs or feedback in the **Issues** tab here on GitHub.
-- No subscription, no gimmicks — **full premium features unlocked** during beta.
-- Redistribution or resale is prohibited. For personal testing only.
+## 📝 Release Notes  
+
+See [Releases](https://github.com/hoguej77/hogueresmaster/releases) for full changelog.  
 
 ---
 
-💡 **Tip**: Keep all files in the same ChatGPT conversation for best results.
+## 📌 Beta Notice  
+
+All rights reserved © 2025 Jonathan Hogue.  
+Provided for personal testing only.  
+Redistribution or resale prohibited.  
